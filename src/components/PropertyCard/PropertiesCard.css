@@ -1,0 +1,33 @@
+.property-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap:15px;
+}
+
+.property-logo-container img{
+    width: 100px;
+    height: 100px;
+}
+.property-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    height:150px;
+    background-color: #F5F5F5;
+    border-radius: 100px;
+}
+
+.property-card p{
+    text-align: center;
+    width:68%;
+}
+
+@media (max-width:850px){
+    .property-card p{
+        width:80%;
+    }
+}

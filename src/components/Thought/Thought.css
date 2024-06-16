@@ -1,0 +1,42 @@
+
+.thought{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto ;
+}
+.thought-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    width:37%;
+}
+
+.thought-content p {
+    text-align: center;
+}
+.thought button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width:200px;
+    background-color:#0078FF;
+    border:none;
+    outline:none;
+    padding:10px 14px;
+    color:white;
+    border-radius: 34px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width:850px){
+
+    .thought{
+        margin: 50px auto;
+    }
+    .thought-content{
+        width: 80%;
+    }
+}

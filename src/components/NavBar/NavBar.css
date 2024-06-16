@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 80px;
+}
+
+.navbar img{
+    width:172px;
+    height:100px;
+}
+
+.navbar button{
+    width:216px;
+    height:44px;
+    border:1px solid #000C1A;
+    border-radius: 32px;
+    background: transparent;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width : 750px){
+
+    .navbar{
+        margin : 8px 20px;
+    }
+    .navbar img{
+        width:142px;
+        height:80px;
+    }
+    .navbar button {
+        width:150px;
+        height:50px;
+    }
+}
